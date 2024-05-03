@@ -1,37 +1,10 @@
-<img src="https://css.gg/album.svg" width="256">
 
-# German-Words-Library in JSON
-
-This is a collection of 2 German word lists. One 1.6 million words long. The other 5,000 words long.
-
-Das ist eine Deutsche Wörter Sammlung in JSON Format.
-
-# Features
-- JSON format
-- original spelling including uppercase and lowercase
-- original spelling including letters liket `ä`, `ö`, `ü`, `ß`, ect.
-- Two sizes: 1,6M and 5K.
-- The 5000 words have been selected randomly
-- Both lists are alphabetically sorted
-
-# Files
-
-```
-["Abbaumaschinen",
-"Abbauorte",
-"Abbausituationen",
-"Abendwache",
-"Abfallens",
-"Abfalltasche",
-...
-"übersäten",
-"überzeugend",
-"üblicheres"]
-```
+# German Word Trainer
+One 1.6 million words. Start learning!
 
 # Original source
+- Forked from Github (`https://raw.githubusercontent.com/Jonny-exe/German-Words-Library`)
 - https://raw.githubusercontent.com/WithEnglishWeCan/generated-german-words-full-list/master/words.full.list.build.txt
-- This has only a 1.6M words file and its in a TXT format.
 
 # Example usage in JavaScript
 
@@ -55,7 +28,7 @@ var getJSON = function(url, callback) {
 };
 
 getJSON('https://raw.githubusercontent.com/Jonny-exe/German-Words-Library/master/German-words-5000-words.json',
-    function(err, data) {  
+    function(err, data) {
       if (err !== null) {
         alert('Something went wrong: ' + err);
       } else {
@@ -65,7 +38,6 @@ getJSON('https://raw.githubusercontent.com/Jonny-exe/German-Words-Library/master
   );
 ```
 
-# Enjoy 
-- Fork 
-- or use directly from Github (e.g. `https://raw.githubusercontent.com/Jonny-exe/German-Words-Library/master/German-words-5000-words.json`)
+# Enjoy
+
 - and if you like it or use it, please give me a :star: on Github
