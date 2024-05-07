@@ -1,0 +1,50 @@
+html {
+  background-color: #eeeeee;
+  font-size: 2rem;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+position: absolute;
+top: 0;
+background: red;
+height: 1rem;
+width: calc(100vw - 2rem);
+text-align: right;
+padding: 0.3rem 1rem ;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#article {
+  opacity:0;
+}
+
+#article:hover {
+  opacity:1;
+  -webkit-transition: opacity .2s ease-in-out .0s;
+  transition: opacity .2s ease-in-out .0s;
+  color: green;
+}
+
+#english-word {
+  padding: 1rem;
+  display: none;
+}
+

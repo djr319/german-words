@@ -7,29 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section id="user">
-
+  <section class="header">
+    <button>Admin</button>
   </section>
 
-  <section id="content">
-    <div id="german-word"></div>
-    <div id="english-word"></div>
-    <div id="part-of-speech-classifier">
-      <!--
-      noun
-      verb
-      adjective
-      adverb
-      pronoun
-      preposition
-      conjunction
-      interjection
-      determiner
--->
-    </div>
-    <div id="gender">
-
-    </div>
-  </section>
-</body>
+  <div class="wrapper">
+    <section id="content">
+      <div id="main">
+        <span id="article">das</span>
+        <span id="german-word">Wort</span>
+      </div>
+      <div id="english-word">Word</div>
+      <div id="data-entry">
+        <!--
+          noun - der die das
+          verb
+          adjective - parts
+          adverb
+          pronoun / Pronomen
+          preposition
+          conjunction
+          interjection
+          determiner - include articles (a, an, the), demonstrations (this, that, these, those), possessive pronouns (my, your, his, her, its, our, their), and quantifiers (somebody/someone/something/somewhere)
+        -->
+      </div>
+    </section>
+  </div>
+  </body>
 </html>
